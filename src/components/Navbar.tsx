@@ -21,7 +21,7 @@ export const Navbar = () => {
   
   return(
     <div 
-      className="py-4 sticky -top-1 w-full z-50 flex justify-between"
+      className="py-4 sticky top-0 left-0 w-full z-50 flex justify-between bg-main"
       ref={myRef}
     >
       <div className="flex items-center relative">
@@ -73,7 +73,7 @@ export const Navbar = () => {
             <img 
               src={Images.HamburgerMenu}
               alt="Menu hamburger"
-              className="scale-75 cursor-pointer"
+              className="cursor-pointer"
               onClick={() => setIsOpen(true)}
             />
           )}
