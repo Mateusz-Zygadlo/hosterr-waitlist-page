@@ -6,6 +6,7 @@ import HeroImage from './Hero Image (Model).png'
 import Logo from './Logo.svg'
 import PinkShape from './Pink Shape.svg'
 import PurpleShape from './Purple Shape.svg'
+import HamburgerMenu from './Hamburger Menu.svg'
 
 export const Images = {
   BlueShape,
@@ -15,5 +16,6 @@ export const Images = {
   HeroImage,
   Logo,
   PinkShape,
-  PurpleShape
+  PurpleShape,
+  HamburgerMenu
 }

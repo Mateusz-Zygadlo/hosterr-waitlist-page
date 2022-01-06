@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .animate-links {
+    @apply border-b border-transparent cursor-pointer hover:border-black duration-500;
+  }
+}
