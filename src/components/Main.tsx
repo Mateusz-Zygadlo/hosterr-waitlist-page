@@ -11,7 +11,7 @@ export const Main = () => {
   const { h1, p, info } = CONTENT
   
   return(
-    <div className="flex flex-col-reverse lg:flex-row justify-between items-center mt-10">
+    <div className="flex flex-col-reverse lg:flex-row justify-between items-center">
       <div className="lg:w-full lg:max-w-[50rem] flex flex-col lg:items-start lg:pr-8 mt-5">
         <h1 className="text-5xl font-extrabold">{h1}</h1>
         <p className="mt-3">{p}</p>

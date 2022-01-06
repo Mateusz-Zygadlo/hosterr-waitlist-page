@@ -7,7 +7,6 @@ export const useWindowSize = () => {
   const [windowSize, setWindowSize] = useState({
     width: 0,
     setWidth(rect: number){
-      console.log(rect)
       setWindowSize({
         ...windowSize, 
         width: rect
